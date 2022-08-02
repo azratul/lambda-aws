@@ -11,7 +11,7 @@ type Payload struct {
 	Path                  string      `json:"path"`
 	HTTPMethod            string      `json:"httpMethod"`
 	Body                  string      `json:"body"`
-	IsBase64Encoded       string      `json:"isBase64Encoded"`
+	IsBase64Encoded       bool        `json:"isBase64Encoded"`
 	QueryString           interface{} `json:"queryStringParameters"`
 	MultiValueQueryString interface{} `json:"multiValueQueryStringParameters"`
 	PathParameters        interface{} `json:"pathParameters"`
